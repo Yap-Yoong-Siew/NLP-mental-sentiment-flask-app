@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='styles/questions.css')}}"
+    />
+    <title>DB-ES | Questions</title>
+  </head>
+  <body>
+    <div class="questions-container">
+      <div class="questions-content">
+        <h1 class="questions-items" id="question">{{main_question}}</h1>
+        <form class="questions-items questions-grid" method="POST">
+          {%for response in responses%}
+          <button
+            type="submit"
+            name="response-button"
+            value="{{response}}"
+            class="questions-items"
+            id="grid-button"
+          >
+            {{response}}
+          </button>
+          {%endfor%}
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

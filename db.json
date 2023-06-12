@@ -1,0 +1,240 @@
+{
+  "What would you like to learn today?": {
+    "I want to know more about the course": {
+      "What do you want to know about it?": {
+        "I want to know about the method of teaching": [
+          "During the current pandemic period, classes are currently held online through Microsoft Teams.",
+          "The lecture will divided into 3 groups and will held on Tuesday, 1.00-3.00 pm.",
+          "The tutorial will divided into 6 groups and will held on Thursday, 1.00-4.00pm."
+        ],
+        "I want to know about the prerequisite": "There is no prerequisite for this course.",
+        "I want to know about the learning outcome": [
+          "Students can describe the basic concepts in database.",
+          "Identify a database management system (DBMS).",
+          "Develop a database system for an application or small business.",
+          "Implement the database design using a Database Management System (DBMS)."
+        ],
+        "I want to know about the attendance requirement": "Attendance is compulsory and students must record their own attendance via Spectrum according to their lecture group.",
+        "I want to know about the assessments": {
+          "This course contains 3 types of assessments Which one do you want to know about?": {
+            "I want to know about the tutorial": {
+              "What do you want to know about it?": {
+                "I want to know about the submission date": "Submission date is every week before the tutorial session start.",
+                "I want to know about the assignment format": "Subjective question based on topics learned in lecture every week.",
+                "I want to know about the weightage of the assignment": "10%"
+              }
+            },
+            "I want to know about the individual assignments": {
+              "What do you want to know about it?": {
+                "I want to know about the submission date": "Students must submit before week 7.",
+                "I want to know about the assignment format": "Pick a company and create a poster about the database of the company.",
+                "I want to know about the weightage of the assignment": "15%"
+              }
+            },
+            "I want to know about the group assignments": {
+              "What do you want to know about it?": {
+                "I want to know about the assignment description": [
+                  "Students need to find organization and conduct online interview to develop a database and prepare a report",
+                  "Report submission and video presentation during Week 14.",
+                  "Peer Assessment will be done to assess participation."
+                ],
+                "I want to know about the number of group members per group": "Each group MUST consists 5 members (mixed races and gender).",
+                "I want to know about the weightage of the assignment": "15% for presentation of project video and 10% for project report."
+              }
+            }
+          }
+        }
+      }
+    },
+    "I want to learn about the topics in Database": {
+      "This course contains many topics. Which topic would you like to learn?": {
+        "I want to know about the Introduction to Database topic": {
+          "What do you want to know about it?": {
+            "What is database?": [
+              "Shared, integrated computer structure that stores a collection of:",
+              "End-user data - Raw facts of interest to end user",
+              "Metadata: Data about data, which the end-user data are integrated and managed"
+            ],
+            "I want to know about DBMS": {
+              "What do you want to know about it?": {
+                "What is the roles of DBMS?": [
+                  "Intermediary between the user and the database",
+                  "Enables data to be shared",
+                  "Presents the end user with an integrated view of the data",
+                  "Receives and translates application requests into operations required to fulfill the requests",
+                  "Hides database’s internal complexity from the application programs and users"
+                ],
+                "What is the advantages of DBMS?": [
+                  "Better data integration and less data inconsistency",
+                  "Data inconsistency: Different versions of the same data appear in different places",
+                  "Increased end-user productivity",
+                  "Improved: Data sharing, Data security, Data access, Decision making, Data quality: Promoting accuracy, validity, and timeliness of data"
+                ],
+                "What is the functions of DBMS?": [
+                  "Data dictionary management: Data dictionary: Stores definitions of the data elements and their relationships",
+                  "Data storage management: Performance tuning: Ensures efficient performance of the database in terms of storage and access speed",
+                  "Data transformation and presentation: Transforms entered data to conform to required data structures",
+                  "Security management: Enforces user security and data privacy",
+                  "Multiuser access control: Sophisticated algorithms ensure that multiple users can access the database concurrently without compromising its integrity",
+                  "Backup and recovery management: Enables recovery of the database after a failure",
+                  "Data integrity management: Minimizes redundancy and maximizes consistency",
+                  "Database access languages and application programming interfaces: Query language: Lets the user specify what must be done without having to specify how",
+                  "Structured Query Language (SQL): De facto query language and data access standard supported by the majority of DBMS vendors",
+                  "Database communication interfaces: Accept end-user requests via multiple, different network environments"
+                ]
+              }
+            },
+            "I want to know about types of database": [
+              "Single-user database: Supports one user at a time",
+              "Multiuser database: Supports multiple users at the same time",
+              "Centralized database: Data is located at a single site",
+              "Distributed database: Data is distributed across different sites ",
+              "Cloud database: Created and maintained using cloud data services that provide defined performance measures for the database",
+              "General-purpose databases: Contains a wide variety of data used in multiple disciplines",
+              "Discipline-specific databases: Contains data focused on specific subject areas",
+              "Operational database: Designed to support a company’s day-to-day operations",
+              "Analytical database: Stores historical data and business metrics used exclusively for tactical or strategic decision making ",
+              "Online analytical processing (OLAP): Enable retrieving, processing, and modeling data from the data warehouse",
+              "Business intelligence: Captures and processes business data to generate information that support decision making ",
+              "Unstructured data: It exists in their original state",
+              "Structured data: It results from formatting ",
+              "Semistructured data: Processed to some extent",
+              "Extensible Markup Language (XML): Represents data elements in textual format"
+            ],
+            "What is data anomaly?": [
+              "There are three types of Data Anomalies",
+              " Update Anomalies: Happen when the person charged with the task of keeping all the records current and accurate, is asked, for example, to change an employee’s title due to a promotion. If the data is stored redundantly in the same table, and the person misses any of them, then there will be multiple titles associated with the employee. The end user has no way of knowing which is the correct title.",
+              " Insertion Anomalies: Happen when inserting vital data into the database is not possible because other data is not already there. For example, if a system is designed to require that a customer be on file before a sale can be made to that customer, but you cannot add a customer until they have bought something, then you have an insert anomaly.",
+              " Deletion Anomalies: Happen when the deletion of unwanted information causes desired information to be deleted as well. For example, if a single database record contains information about a particular product along with information about a salesperson for the company and the salesperson quits, then information about the product is deleted along with salesperson information."
+            ]
+          }
+        },
+        "I want to know about the Relational Data Model topic": {
+          "What do you want to know about it?": {
+            "I want to know about the important definition in this topic?": [
+              "Data modelling: Iterative and progressive process of creating a specific data model for a determined problem domain.",
+              "Data models: Simple representations of complex real-world data structures.",
+              "Model: Abstraction of a real-world object or event."
+            ],
+            "I want to know about the importance of data models": [
+              "It act as communication tools.",
+              "Give an overall view of the database.",
+              "Organize data for various users.",
+              "An abstraction for the creation of good database."
+            ],
+            "I want to know about data model basic building blocks": [
+              "Entity: Unique and distinct object used to collect and store data.",
+              "Attribute: Characteristic of an entity.",
+              "Relationship: Describes an association among entities. It can be One-to-Many (1:M), Many-to-Many (M:M) and One-to-One (1:1).",
+              "Constraint: Set of rules to ensure data integrity."
+            ],
+            "I want to know about relational model?": "Produced an automatic transmission database that replaced standard transmission databases based on a relation.",
+            "I want to know about Entity Relationship Diagram (ERD)": "Uses graphic representations to model database components. It has three Model Notation which are Chen Notation, Crow's Foot Notation, UML Class Diagram.",
+            "I want to know about keys in Database?": [
+              "Concept of Keys in DBMS: Please watch it here: https://www.youtube.com/watch?v=p3yJZH8_bsc",
+              "Primary Key (PK): Attribute or combination of attributes that uniquely identifies any given row.",
+              "Foreign Key (FK): A field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table."
+            ],
+            "I want to know about types of keys": [
+              "Composite key: Key that is composed of more than one attribute.",
+              "Key attribute: Attribute that is a part of a key.",
+              "Entity integrity: Condition in which each row in the table has its own unique identity.",
+              "Referential integrity: Every reference to an entity instance by another entity instance is valid.",
+              "Null: Absence of any data value that could represent an unknown attribute value, known but missing attribute value and an inapplicable condition."
+            ],
+            "I want to know about relational set operators": [
+              "SELECT: Unary operator that yields a horizontal subset of a table.",
+              "PROJECT: Unary operator that yields a vertical subset of a table.",
+              "UNION: Combines all rows from two tables, excluding duplicate rows.",
+              "INTERSECT: Yields only the rows that appear in both tables.",
+              "DIFFERENCE: Yields all rows in one table that are not found in the other table.",
+              "PRODUCT: Yields all possible pairs of rows from two tables.",
+              "JOIN: Allows information to be intelligently combined from two or more tables.",
+              "DIVIDE: Uses one 2-column table as the dividend and one single-column table as the divisor."
+            ],
+            "I want to know about data redundancy": "Relational database facilitates control of data redundancies through use of foreign keys."
+          }
+        },
+        "I want to know about the Normalization topic": {
+          "What do you want to know about it?": {
+            "What is normalization and its function?": [
+              "Normalization is a database design technique that reduces data redundancy and eliminates undesirable characteristics like Insertion, Update and Deletion Anomalies.",
+              "Normalization rules divides larger tables into smaller tables and links them using relationships.",
+              "The purpose of Normalization in SQL is to eliminate redundant (repetitive) data and ensure data is stored logically.",
+              "Evaluating and correcting table structures to minimize data redundancies."
+            ],
+            "What is the difference between 1NF, 2NF and 3NF?": [
+              "1NF: able Format, no repeating groups, and PK identified",
+              "2NF: 1NF and no partial dependencies",
+              "3NF: 2NF and no transitive dependencies"
+            ],
+            "How to convert between normal forms?": [
+              "Conversion to 1NF, Conversion to 2NF, Conversion to 3NF",
+              "Youtube video explaining all of the conversion",
+              "Here is the link to the video",
+              "https://www.youtube.com/watch?v=FH-X0m9K-ZQ"
+            ]
+          }
+        },
+        "I want to know about the Introduction to SQL topic": {
+          "What do you want to know about it?": {
+            "What is SQL?": [
+              "SQL stands for Structured Query Language",
+              "SQL lets you access and manipulate databases",
+              "Further reading: https://www.w3schools.com/sql/"
+            ],
+            "What is SQL SELECT statement?": [
+              "The SELECT statement is used to select data from a database.",
+              "The data returned is stored in a result table, called the result-set.",
+              "Syntax: SELECT column 1, column2, ... FROM table_name;",
+              "Example: SELECT CustomerName, City FROM Customers;"
+            ],
+            "What is SQL WHERE clause?": [
+              "The WHERE clause is used to filter records.",
+              "It is used to extract only those records that fulfill a specified condition.",
+              "Syntax: SELECT column1, column2, ... FROM table_name WHERE condition;",
+              "Example: SELECT * FROM Customers WHERE Country='Mexico';"
+            ],
+            "What is SQL AND, OR, NOT operators?": [
+              "The WHERE clause can be combined with AND, OR, and NOT operators.",
+              "The AND operator displays a record if all the conditions separated by AND are TRUE.",
+              "The OR operator displays a record if any of the conditions separated by OR is TRUE.",
+              "The NOT operator displays a record if the condition(s) is NOT TRUE.",
+              "Syntax: SELECT column1, column2, ... FROM table_name WHERE condition1 AND condition2 AND condition3 ...;",
+              "Syntax: SELECT column1, column2, ... FROM table_name WHERE condition1 OR condition2 OR condition3 ...;",
+              "Syntax: SELECT column1, column2, ... FROM table_name WHERE NOT condition;"
+            ],
+            "What is SQL UPDATE statement?": [
+              "The UPDATE statement is used to modify the existing records in a table.",
+              "Syntax: UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;",
+              "Example: UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;"
+            ],
+            "What is SQL DELETE statement?": [
+              "The DELETE statement is used to delete existing records in a table.",
+              "Syntax: DELETE FROM table_name WHERE condition;",
+              "Example: DELETE FROM Customers WHERE CustomerName = 'Alfreds Futterkiste';"
+            ],
+            "What is SQL JOIN statement?": [
+              "A JOIN clause is used to combine rows from two or more tables, based on a related column between them.",
+              "The INNER JOIN keyword selects records that have matching values in both tables.",
+              "Syntax: SELECT column_name(s) FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+              "Example: SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;"
+            ]
+          }
+        }
+      }
+    },
+    "I want to develop a Database": {
+      "sql": [
+        "Working with complex queries",
+        "High transaction application",
+        "Data consistency is important"
+      ],
+      "nosql": [
+        "Need highly flexible database",
+        "Not concern about data inconsistency",
+        "Need high scalability"
+      ]
+    }
+  }
+}

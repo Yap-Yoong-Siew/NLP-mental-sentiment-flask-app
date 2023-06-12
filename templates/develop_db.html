@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='styles/developdb.css')}}"
+    />
+    <title>DB-ES | Develop a Database</title>
+  </head>
+  <body>
+    <div class="questions-container">
+      <div class="questions-content">
+        <h1 class="questions-items" id="question">
+          Select the requirements for the Database you want to develop
+        </h1>
+        <form
+          action="#"
+          class="questions-items"
+          id="develop-form"
+          method="POST"
+        >
+          {%for rule in db_rules%}
+          <div class="rule-selection">
+            <label class="rule-text" for="{{rule}}">{{rule}}</label>
+            <select class="rule-ans" name="{{rule}}">
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+              <option value="Not Concern" selected>Not Concern</option>
+            </select>
+          </div>
+          {%endfor%}
+          <br />
+          <button type="submit" name="response-button" id="submit-button">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="4">
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='styles/home.css')}}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>DB-ES | Home</title>
+  </head>
+  <body>
+    <div class="home-container">
+      <div class="home-text">
+        <h1 id="home-greeting">
+          Mental Health Sentiment Analysis Web App <br />   
+        </h1>       
+          <div id="home-typewriter">
+            <div class="typewriter-text">{{message}}</div>
+          </div>
+        <a href="get-to-know">
+          <button id="home-button">Get Started</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

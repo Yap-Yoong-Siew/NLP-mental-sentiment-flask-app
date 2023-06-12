@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-container {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(to bottom right, #1b22e8, #b2478f);
+}
+
+.home-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home-greeting {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+#home-welcome {
+  font-size: 75px;
+  font-weight: normal;
+  color: white;
+}
+
+#home-typewriter {
+  height: 1.7em;
+  overflow: hidden;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.typewriter-text {
+  animation: typewriter 4s steps(44) 1 forwards, blink-caret .75s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid orange;  /* The typewriter cursor */
+  font-size: 30px;
+  font-family: 'Courier', monospace;
+  margin-bottom: 80px;
+  color: white;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+#home-button {
+  font-size: 35px;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 20px;
+  color: white;
+  background: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+#home-button:hover {
+  color: #664ad2;
+  background: white;
+}
