@@ -139,7 +139,7 @@ def answer():
 
     global issue
     if issue:
-        final_answer = "You have mental health issue. Please seek help from professional."
+        final_answer = "You might have mental health issue. Please seek help from professional."
     else:
         final_answer = "You don't have mental health issue."
 
