@@ -32,19 +32,19 @@ final_answer = ""
 @ app.route('/')
 def home():
     messages = [
-    "I feel a deep sense of peace and contentment today.",
-    "Dealing with anxiety has been a constant struggle in my life.",
-    "Practicing self-care helps me feel more balanced and grounded.",
-    "I often find myself overwhelmed by negative thoughts and emotions.",
+    "I feel a deep sense of peace and contentment today, I want this to continue.",
+    "Dealing with anxiety has been a constant struggle in my life, I need help.",
+    "Practicing self-care helps me feel more balanced and grounded, change is coming.",
+    "I often find myself overwhelmed by extreme negative thoughts and emotions.",
     "Engaging in creative activities brings me joy and a sense of fulfillment.",
-    "The weight of depression feels heavy and suffocating for me.",
+    "The weight of depression feels heavy and suffocating for me, I want to stop.",
     "Reaching out to loved ones for support makes a difference in my mental well-being.",
-    "Social media often leaves me feeling inadequate and anxious.",
-    "Taking time for relaxation and mindfulness boosts my mental resilience.",
+    "Social media often leaves me feeling inadequate and anxious, I feel light.",
+    "Taking more time for relaxation and mindfulness boosts my mental resilience.",
     "Living with a mental illness is challenging, but I am committed to my recovery.",
     "Expressing gratitude daily helps shift my perspective and cultivates positivity.",
     "I experience moments of intense stress and panic that are hard to manage.",
-    "Spending time in nature rejuvenates my spirit and brings me peace.",
+    "Spending time in nature rejuvenates my spirit and brings me peace that I've wanted.",
     "Feeling disconnected from others is a common struggle I've always face.",
     "Engaging in regular physical exercise positively impacts my mental health.",
     "The stigma surrounding mental health still prevents many from seeking help."

@@ -20,7 +20,7 @@
 }
 
 #home-greeting {
-  font-size: 40px;
+  font-size: 55px;
   color: white;
   margin-bottom: 50px;
 
@@ -40,7 +40,7 @@
 }
 
 .typewriter-text {
-  animation: typewriter 4s steps(44) 1 forwards, blink-caret .75s step-end infinite;
+  animation: typewriter 3s steps(44) 1 forwards, blink-caret .75s step-end infinite;
   white-space: nowrap;
   overflow: hidden;
   border-right: .15em solid orange;  /* The typewriter cursor */
