@@ -193,5 +193,5 @@ def develop_db():
     return render_template("develop_db.html", db_rules=db_rules)
 
 
-app.run(host='0.0.0.0', port=8080)
+app.run(host='0.0.0.0', port=5001)
 
